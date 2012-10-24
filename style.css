@@ -1,0 +1,147 @@
+body{
+    font: 12px verdana;    
+}
+#navEdit{
+    position: relative;
+    width: 600px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    min-height: 400px;  
+}
+
+.all-menu {
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+.p-menu {
+    width:115px;
+    margin:0px;
+    padding:0px;
+    float:left;
+    list-style-type:none;
+}
+.menuTitle {
+    float:left;
+    margin:0px;
+    padding:0px;
+    width:115px;
+    background-color:#999;
+    cursor:move;
+    color:#fff;
+    text-align:left;
+    font:12px verdana;
+    font-weight:bold;
+    border-bottom:1px solid #e8e8e8;
+    border-left:1px solid #e8e8e8;
+    text-align:center;
+    padding-bottom:10px;
+    padding-top:10px;
+}
+.ui-state-highlight-sub {
+    float:left;
+    margin:0px;
+    height: 20px;
+    width:100%;
+    background-color:#AFA;
+    text-align:left;
+    padding:0px;
+    margin:0px;
+    font-size:10px;
+    border:2px green dashed;
+}
+.ui-state-highlight-top {
+    float:left;
+    margin:0px;
+    height: 30px;
+    width:115px;
+    background-color:#aabeff;
+    text-align:left;
+    padding:0px;
+    margin:0px;
+    font-size:10px;
+    border:2px blue dashed;
+}
+.all-sub-menu {
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    width:115px;
+    min-height:250px;
+    display:block;
+}
+.s-menu {
+    width:115px;
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    float:left;
+}
+.s-menu-title {
+    float:left;
+    width:112px;
+    background-color:#ccc;
+    padding:10px;
+    color:black;
+    text-align:left;
+    padding:0px;
+    font:12px verdana;
+    border-bottom:1px solid #e8e8e8;
+    border-left:1px solid #e8e8e8;
+    padding-top:8px;
+    padding-bottom:8px;
+    color:#666;
+    padding-left:3px;
+    cursor:pointer;
+}
+#drag-handle {
+    cursor:move;
+    margin:0px;
+    padding:0px;
+    width:500px;
+}
+.hLight{
+    background-color: lightblue;        
+}
+
+/* Node Editor */
+
+#nodeEdit{
+   position: absolute;
+   bottom: 0;
+   right: 0px;
+   border-top: 1px solid #ccc;
+   width : 600px;
+   padding: 15px;
+   
+   font:12px verdana;
+}
+
+#nodeEdit a{
+    padding: 5px 5px 5px 20px;
+    line-height: 25px;
+    width: 20px;
+    height: 25px; 
+}
+
+.navUp{
+    background:url('nav-up.png') 0 3px no-repeat;
+}
+.navDown{
+    background:url('nav-down.png') 0 3px no-repeat;
+}
+.navLeft{
+    background:url('nav-left.png') 0 3px no-repeat;
+}
+.navRight{
+    background:url('nav-right.png') 0 3px no-repeat;
+}
+.navParent{
+    background:url('nav-parent.png') 0 2px no-repeat;
+}
+.navChild{
+    padding: 5px 5px 5px 20px;
+    background:url('nav-child.png') 0 2px no-repeat;
+}
